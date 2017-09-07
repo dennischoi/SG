@@ -1,7 +1,7 @@
 {
-  "name": "starter-kit-universally",
+  "name": "ScoutGather",
   "version": "1.0.0",
-  "description": "A starter kit from Ueno. Based on react-universally",
+  "description": "Test development env ScoutGather",
   "main": "build/server/index.js",
   "engines": {
     "node": ">=7.5 <8"
