@@ -5,14 +5,28 @@ import config from 'utils/config';
 import Segment from 'components/segment';
 import Button from 'components/button';
 
+
+import s from './Home.scss';
+
 export default class Home extends Component {
   render() {
     return (
       <div>
         <Helmet title="Home" />
 
+        <section>
+
+          <div className={ s.home__bg }>
+          </div>
+
+        </section>
+
         <Segment>
-          <h1>{config('welcomeMessage')}</h1>
+
+          {/*<h1>{config('welcomeMessage')}</h1>*/}
+          <div className={ s.subTitle__container }>
+            <span className={ s.subTitle__text }>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+          </div>
         </Segment>
 
         <Segment>
