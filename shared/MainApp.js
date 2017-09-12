@@ -9,6 +9,7 @@ import Header from 'components/header';
 import Navigation from 'components/navigation';
 import DevTools from 'components/devtools';
 import Analytics from 'components/analytics';
+import Footer from 'components/footer';
 
 // Routes
 import Home from './routes/home';
@@ -40,6 +41,13 @@ export default function App() {
         </Switch>
         <DevTools />
       </Content>
+      <Footer>
+        <Navigation>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/planets">Contact</Link>
+        </Navigation>
+      </Footer>
     </AppLayout>
   );
 }

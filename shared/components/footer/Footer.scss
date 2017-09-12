@@ -1,0 +1,83 @@
+@import '~styles/config';
+
+footer {
+	min-height: 200px;
+	background-color: #222;
+	color: #fff;
+}
+
+.footer {
+	&__section {
+		display: flex;
+		flex-direction: row;
+		text-align: left;
+	}
+
+	&__tables {
+		flex: 1;
+		padding: 1em 3em;
+	}
+
+	&__media {
+
+		&Icon {
+			margin-right: 0.8em;
+		}
+
+		&__container {
+			display: flex;
+			flex-direction: column;
+			align-items: end;
+		}
+
+		&__item {
+			display: flex;
+			padding-bottom: 1em;
+		}
+
+		&__anchor {
+			display: flex;
+			align-items: center;
+			color: #fff;
+			:hover, :active, :focus {
+				color: #fff !important;
+			}
+		}
+
+		&__logo {
+	    @include reset-anchor;
+
+		    &Svg {
+		      display: block;
+		      width: 35px;
+		      height: auto;
+		    }
+ 		}
+	}
+}
+
+
+/* MEDIA Q for App Size */
+
+@media (max-width: 500px) {
+
+	.footer {
+		&__section {
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		&__tables {
+			text-align: center;
+		}
+
+		&__media {
+
+			&__container {
+				align-items: center;
+			}
+
+		}
+	}
+
+}
