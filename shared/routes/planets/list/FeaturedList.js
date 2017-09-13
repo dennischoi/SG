@@ -10,9 +10,13 @@ import { autobind } from 'core-decorators';
 import Segment from 'components/segment';
 import Button from 'components/button';
 
+
+import s from './FeaturedList.scss';
+
+
 const LoadingComponent = () => (
   <Segment>
-    <div>Loading list of planets....</div>
+    <div>Loading list of Items....</div>
   </Segment>
 );
 
@@ -22,7 +26,7 @@ const LoadingComponent = () => (
   shouldWorkAgain: (prev, next) => prev.match.params.page !== next.match.params.page,
   LoadingComponent,
 })
-export default class Planets extends Component {
+export default class Featured extends Component {
 
   static propTypes = {
     jobResult: PropTypes.shape({
@@ -94,8 +98,7 @@ export default class Planets extends Component {
     return (
       <div>
         <Helmet title="Planets" />
-
-        <Segment>
+        <section className={ s.Featured__segment }>
           <div>
             <p>Showing {this.from}-{this.to} of {count} planets available.</p>
 
@@ -116,7 +119,7 @@ export default class Planets extends Component {
               </Button>
             </nav>
           </div>
-        </Segment>
+        </section>
       </div>
     );
   }

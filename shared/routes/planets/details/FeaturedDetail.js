@@ -14,7 +14,7 @@ import RelatedPlanets from './components/related-planets';
   work: ({ match, planets }) => planets.fetchById(match.params.id),
   shouldWorkAgain: (prev, next) => prev.match.params.id !== next.match.params.id,
 })
-export default class PlanetsDetail extends Component {
+export default class FeaturedDetail extends Component {
 
   static propTypes = {
     jobResult: PropTypes.shape({
