@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 @withJob({
   work: ({ planets }) => planets.fetchAll(),
 })
-export default class RelatedPlanets extends Component {
+export default class RelatedFeatured extends Component {
 
   static propTypes = {
     jobResult: PropTypes.shape({
@@ -34,7 +34,7 @@ export default class RelatedPlanets extends Component {
 
     return (
       <div>
-        <h3>Planets with similar diameter</h3>
+        <h3>Featured with similar content</h3>
         <ul>
           {items.map(related => (
             <li key={`related_${related.name}`}>

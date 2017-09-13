@@ -1,7 +1,9 @@
 @import '~styles/config';
 
 .Featured {
-	&__segment {
-		padding: 2em;
+
+	&__navigation {
+		display: flex;
+		justify-content: center;
 	}
 }

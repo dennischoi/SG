@@ -3,7 +3,7 @@
 @mixin placeholder($text, $left: 25px, $right: 25px) {
   @include responsive-font(14, 14);
 
-  content: $text;
+  // content: $text;
   position: absolute;
   top: 10px;
   left: $left;

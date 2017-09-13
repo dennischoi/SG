@@ -97,8 +97,8 @@ export default class Featured extends Component {
     const { results, count, previous, next } = this.props.jobResult;
     return (
       <div>
-        <Helmet title="Planets" />
-        <section className={ s.Featured__segment }>
+        <Helmet title="Featured" />
+        <Segment>
           <div>
             <p>Showing {this.from}-{this.to} of {count} planets available.</p>
 
@@ -110,7 +110,7 @@ export default class Featured extends Component {
               ))}
             </ul>
 
-            <nav>
+            <nav className={ s.Featured__navigation }>
               <Button disabled={!previous} data-url={previous} onClick={this.onClickPage}>
                 Previous
               </Button>
@@ -119,7 +119,7 @@ export default class Featured extends Component {
               </Button>
             </nav>
           </div>
-        </section>
+        </Segment>
       </div>
     );
   }

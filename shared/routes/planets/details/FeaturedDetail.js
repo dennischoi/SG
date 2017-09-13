@@ -7,7 +7,7 @@ import Helmet from 'react-helmet';
 
 import Segment from 'components/segment';
 
-import RelatedPlanets from './components/related-planets';
+import RelatedFeatured from './components/related-featured/RelatedFeatured';
 
 @inject(['planets'])
 @withJob({
@@ -48,7 +48,7 @@ export default class FeaturedDetail extends Component {
             </ul>
             <Link to="/planets">Go back</Link>
             <hr />
-            <RelatedPlanets planet={planet} />
+            <RelatedFeatured planet={planet} />
           </div>
         </Segment>
       </div>

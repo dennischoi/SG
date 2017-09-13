@@ -1,0 +1,75 @@
+@import '~styles/config';
+
+.fItem {
+	&__section {
+		display: flex;
+		flex-flow: wrap;
+		justify-content:center;
+	}
+
+	&__each {
+		margin-right: 28px;
+	}
+
+
+	// GRID
+
+	&__grid {
+
+		&ImgCol {
+			-webkit-box-flex: 0;
+		    -ms-flex: none;
+		    flex: none;
+		    -ms-flex-item-align: stretch;
+		    align-self: stretch;
+		    padding-left: 15px;
+		    padding-right: 15px;
+		    width: 25%;
+		    position: relative;
+			&:after {
+				font-size: 14px;
+			    position: absolute;
+			    top: 10px;
+			    left: 25px;
+			    right: 25px;
+			    font-family: monospace;
+			    color: #777;
+			}
+		}
+	}
+}
+
+@media(max-width: 900px) {
+	.fItem {
+		&__grid {
+			&ImgCol {
+				width: 45%;
+			}
+		}
+	}
+}
+
+@media(max-width: 600px) {
+	.fItem {
+		&__grid {
+			&ImgCol {
+				width: 95%;
+			}
+		}
+
+		&__each {
+			margin-right: 0;
+		}
+	}
+}
+
+@media(min-width: 375px) {
+	.fItem {
+		&__grid {
+			&ImgCol {
+				font-size: calc(0*100vw + (14px));
+			}
+		}
+	}
+}
+

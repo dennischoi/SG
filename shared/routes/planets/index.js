@@ -5,7 +5,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import FeaturedList from './list';
 import FeaturedDetail from './details';
 
-const PlanetsRoutes = ({ match }) => (
+const FeaturedRoutes = ({ match }) => (
   <div>
     <Switch>
       <Route exact path={`${match.url}/detail/:id`} component={FeaturedDetail} />
@@ -15,8 +15,8 @@ const PlanetsRoutes = ({ match }) => (
   </div>
 );
 
-PlanetsRoutes.propTypes = {
+FeaturedRoutes.propTypes = {
   match: PropTypes.object,
 };
 
-export default PlanetsRoutes;
+export default FeaturedRoutes;
