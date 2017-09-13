@@ -9,6 +9,7 @@
 
 	&__each {
 		margin-right: 28px;
+		margin-bottom: 40px;
 	}
 
 
@@ -16,7 +17,7 @@
 
 	&__grid {
 
-		&ImgCol {
+		&Col {
 			-webkit-box-flex: 0;
 		    -ms-flex: none;
 		    flex: none;
@@ -37,23 +38,32 @@
 			}
 		}
 	}
+
+	&__content {
+    	@include reset-anchor;
+    	height: 88%;
+    	overflow: hidden;
+		&Img {
+			display: block;
+		}
+	}
 }
 
 @media(max-width: 900px) {
 	.fItem {
 		&__grid {
-			&ImgCol {
+			&Col {
 				width: 45%;
 			}
 		}
 	}
 }
 
-@media(max-width: 600px) {
+@media(max-width: 620px) {
 	.fItem {
 		&__grid {
-			&ImgCol {
-				width: 95%;
+			&Col {
+				width: 90%;
 			}
 		}
 
@@ -66,7 +76,7 @@
 @media(min-width: 375px) {
 	.fItem {
 		&__grid {
-			&ImgCol {
+			&Col {
 				font-size: calc(0*100vw + (14px));
 			}
 		}
