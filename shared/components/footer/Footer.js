@@ -26,7 +26,6 @@ export default class Footer extends Component {
       						<div className={ s.footer__mediaIcon }>
       							<FacebookSvg className={ s.footer__media__logoSvg } />
       						</div>
-      						<span>Facebook</span>
       					</a>
       				</div>
 
@@ -36,9 +35,32 @@ export default class Footer extends Component {
       						<div className={ s.footer__mediaIcon }>
       							<InstagramSvg className={ s.footer__media__logoSvg } />
       						</div>
-      						<span>Instagram</span>
       					</a>
       				</div>
+
+              <div className={ s.footer__media__item }>
+                <a href="https://www.instagram.com/scout.gather/" className={ s.footer__media__anchor } rel="noopener" target="_blank">
+                  <div className={ s.footer__mediaIcon }>
+                    <InstagramSvg className={ s.footer__media__logoSvg } />
+                  </div>
+                </a>
+              </div>
+
+              <div className={ s.footer__media__item }>
+                <a href="https://www.instagram.com/scout.gather/" className={ s.footer__media__anchor } rel="noopener" target="_blank">
+                  <div className={ s.footer__mediaIcon }>
+                    <InstagramSvg className={ s.footer__media__logoSvg } />
+                  </div>
+                </a>
+              </div>
+              
+              <div className={ s.footer__media__item }>
+                <a href="https://www.instagram.com/scout.gather/" className={ s.footer__media__anchor } rel="noopener" target="_blank">
+                  <div className={ s.footer__mediaIcon }>
+                    <InstagramSvg className={ s.footer__media__logoSvg } />
+                  </div>
+                </a>
+              </div>
       			</div>
       		</div>
 
