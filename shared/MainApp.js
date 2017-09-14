@@ -16,7 +16,7 @@ import Home from './routes/home';
 import Grid from './routes/grid';
 import About from './routes/about';
 import Featured from './routes/featured';
-import Planets from './routes/planets';
+import Chairs from './routes/chairs';
 import NotFound from './routes/not-found';
 
 export default function App() {
@@ -27,7 +27,7 @@ export default function App() {
         <Navigation>
           <Link to="/">Home</Link>
           <Link to="/featured">Featured</Link>
-          <Link to="/planets">Planets</Link>
+          <Link to="/chairs">Chairs</Link>
           <Link to="/about">About</Link>
         </Navigation>
       </Header>
@@ -37,7 +37,7 @@ export default function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/featured" component={Featured} />
           <Route exact path="/about" component={About} />
-          <Route path="/planets" component={Planets} />
+          <Route path="/chairs" component={Chairs} />
           <Route component={NotFound} />
         </Switch>
         <DevTools />
@@ -46,7 +46,7 @@ export default function App() {
         <Navigation>
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
-          <Link to="/planets">Contact</Link>
+          <Link to="/planets">Sold</Link>
         </Navigation>
       </Footer>
     </AppLayout>

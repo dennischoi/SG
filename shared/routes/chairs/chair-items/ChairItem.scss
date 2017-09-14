@@ -1,0 +1,85 @@
+@import '~styles/config';
+
+.cItem {
+	&__section {
+		display: flex;
+		flex-flow: wrap;
+		justify-content:center;
+	}
+
+	&__each {
+		margin-right: 28px;
+		margin-bottom: 40px;
+	}
+
+
+	// GRID
+
+	&__grid {
+
+		&Col {
+			-webkit-box-flex: 0;
+		    -ms-flex: none;
+		    flex: none;
+		    -ms-flex-item-align: stretch;
+		    align-self: stretch;
+		    padding-left: 15px;
+		    padding-right: 15px;
+		    width: 25%;
+		    position: relative;
+			&:after {
+				font-size: 14px;
+			    position: absolute;
+			    top: 10px;
+			    left: 25px;
+			    right: 25px;
+			    font-family: monospace;
+			    color: #777;
+			}
+		}
+	}
+
+	&__content {
+    	@include reset-anchor;
+    	height: 88%;
+    	overflow: hidden;
+		&Img {
+			display: block;
+		}
+	}
+}
+
+@media(max-width: 900px) {
+	.cItem {
+		&__grid {
+			&Col {
+				width: 45%;
+			}
+		}
+	}
+}
+
+@media(max-width: 620px) {
+	.cItem {
+		&__grid {
+			&Col {
+				width: 90%;
+			}
+		}
+
+		&__each {
+			margin-right: 0;
+		}
+	}
+}
+
+@media(min-width: 375px) {
+	.cItem {
+		&__grid {
+			&Col {
+				font-size: calc(0*100vw + (14px));
+			}
+		}
+	}
+}
+

@@ -1,0 +1,33 @@
+@import '~styles/config';
+
+.chairs {
+
+}
+
+// /* Media Q when at 700px */
+@media(max-width: 700px) {
+	.chairs {
+
+	}
+}
+
+.subTitle {
+	&__container {
+		display: -webkit-box;
+		justify-content: center;
+		align-items: center;
+		height: 200px;
+		margin: 0 10%;
+		border-bottom: 2px solid black;
+	}
+
+	&__text {
+		flex: 1;
+		font-size: 1.25em;
+		font-weight: bold;
+		font-style: italic;
+		text-align: center;
+
+	}
+}
+
