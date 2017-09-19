@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { Link } from 'react-router-dom';
 
-import UenoLogoSvg from 'assets/images/ueno-logo.svg';
+import UenoLogoSvg from 'assets/images/scoutgather-logo.svg';
 
 import Header from 'components/header';
 

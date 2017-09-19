@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import UenoLogoSvg from 'assets/images/ueno-logo.svg';
+import UenoLogoSvg from 'assets/images/scoutgather-logo.svg';
 import ScoutGatherSvg from 'assets/images/ScoutHeader.svg';
 
 import s from './Header.scss';

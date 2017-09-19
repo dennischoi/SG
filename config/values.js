@@ -114,7 +114,7 @@ const values = {
       lang: 'en',
     },
     title: 'Home',
-    titleTemplate: 'Ueno. - %s',
+    titleTemplate: 'Scout&Gather. - %s',
     meta: [
       /*
         A great reference for favicons:
@@ -125,7 +125,7 @@ const values = {
         http://www.favicomatic.com/
       */
       { httpEquiv: 'X-UA-Compatible', content: 'IE=edge' },
-      { name: 'description', content: 'Ueno. description text here!' },
+      { name: 'description', content: 'Scout&Gather. description text here!' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' }, // prevents inputs from zooming, but iOS still allows normal pinch zoom
       { name: 'msapplication-TileColor', content: '#00E2AD' },
       { name: 'msapplication-TileImage', content: '/favicons/mstile-150x150.png' },
@@ -137,10 +137,10 @@ const values = {
       { property: 'og:image', content: '/favicons/android-chrome-192x192.png' },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:image', content: '/favicons/android-chrome-192x192.png' },
-      { name: 'twitter:site', content: '@ueno' },
-      { name: 'twitter:creator', content: '@ueno' },
-      { name: 'twitter:description', content: 'Ueno. description text here!' },
-      { name: 'twitter:title', content: 'Ueno.' },
+      { name: 'twitter:site', content: '@scout&gather' },
+      { name: 'twitter:creator', content: '@scout&gather' },
+      { name: 'twitter:description', content: 'Scout&Gather. description text here!' },
+      { name: 'twitter:title', content: 'Scout&Gather.' },
     ],
     link: [
       { rel: 'apple-touch-icon-precomposed', sizes: '152x152', href: '/favicons/apple-touch-icon-152x152.png' },
