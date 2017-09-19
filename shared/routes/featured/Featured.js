@@ -14,15 +14,14 @@ export default class Featured extends Component {
       <div>
         <Helmet title="Featured" />
 
-        <section>
+        <Segment>
 
-          <div className="">
+          {/*<h1>{config('welcomeMessage')}</h1>*/}
+          <div className={ s.subTitle__container }>
+            <span className={ s.subTitle__text }>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
           </div>
-
-          <h1>{config('welcomeMessage')}</h1>
-
           <FeaturedSet />
-        </section>
+        </Segment>
 
         <Segment>
           <Button>Button</Button>

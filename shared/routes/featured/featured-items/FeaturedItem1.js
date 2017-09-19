@@ -26,44 +26,80 @@ export default class FeaturedItem1 extends Component {
     return (
       <section> 
         <div className={ s.fItem__section }>
+
           <div className={s(s.fItem__gridCol, s.fItem__each)}>
+            <div className={s.fItem__title}>
+              <span className={s.fItem__titleText}>Lorem Ipsum</span>
+            </div>
             <div className={s.fItem__content}>
               <img src={Chair1} className={s.fItem__contentImg} />
             </div>
-            Test
+            <div className={s.fItem__title}>
+              <span className={s.fItem__titleDescription}>Test</span>
+            </div>
           </div>
+
           <div className={s(s.fItem__gridCol, s.fItem__each)}>
+            <div className={s.fItem__title}>
+              <span className={s.fItem__titleText}>Lorem Ipsum</span>
+            </div>
             <div className={s.fItem__content}>
               <img src={Counter1} className={s.fItem__contentImg} />
             </div>
-            Test2
+            <div className={s.fItem__title}>
+              <span className={s.fItem__titleDescription}>Test</span>
+            </div>
           </div>
+
           <div className={s(s.fItem__gridCol, s.fItem__each)}>
+            <div className={s.fItem__title}>
+              <span className={s.fItem__titleText}>Lorem Ipsum</span>
+            </div>
             <div className={s.fItem__content}>
               <img src={Desk1} className={s.fItem__contentImg} />
             </div>
-            Test3
+            <div className={s.fItem__title}>
+              <span className={s.fItem__titleDescription}>Test</span>
+            </div>
           </div>
 
 
           <div className={s(s.fItem__gridCol, s.fItem__each)}>
+            <div className={s.fItem__title}>
+              <span className={s.fItem__titleText}>Lorem Ipsum</span>
+            </div>
             <div className={s.fItem__content}>
               <img src={Desk2} className={s.fItem__contentImg} />
             </div>
-            Test4
+            <div className={s.fItem__title}>
+              <span className={s.fItem__titleDescription}>Test</span>
+            </div>
           </div>
+
           <div className={s(s.fItem__gridCol, s.fItem__each)}>
+            <div className={s.fItem__title}>
+              <span className={s.fItem__titleText}>Lorem Ipsum</span>
+            </div>
             <div className={s.fItem__content}>
               <img src={Chair2} className={s.fItem__contentImg} />
             </div>
-            Test5
+            <div className={s.fItem__title}>
+              <span className={s.fItem__titleDescription}>Test</span>
+            </div>
           </div>
+
           <div className={s(s.fItem__gridCol, s.fItem__each)}>
+            <div className={s.fItem__title}>
+              <span className={s.fItem__titleText}>Lorem Ipsum</span>
+            </div>
             <div className={s.fItem__content}>
               <img src={Counter2} className={s.fItem__contentImg} />
             </div>
-            Test6
+            <div className={s.fItem__title}>
+              <span className={s.fItem__titleDescription}>Test</span>
+            </div>
           </div>
+
         </div>
       </section>
     );
