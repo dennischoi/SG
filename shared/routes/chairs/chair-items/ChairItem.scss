@@ -14,11 +14,17 @@
 
 	&__title {
 		text-align: center;
+		margin: 10px;
 		&Text {
 			font-weight: bold;
+			font-size: 18px;
 		}
-		&Description {
-
+	}
+	&__detail {
+		text-align: center;
+		padding-top: 10px;
+		&Text {
+			
 		}
 	}
 
@@ -51,7 +57,7 @@
 
 	&__content {
     	@include reset-anchor;
-    	height: 88%;
+    	height: -webkit-fill-available;
     	overflow: hidden;
 		&Img {
 			display: block;

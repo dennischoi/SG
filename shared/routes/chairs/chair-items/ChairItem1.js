@@ -29,8 +29,8 @@ export default class ChairItem1 extends Component {
             <div className={s.cItem__content}>
               <img src={Chair1} className={s.cItem__contentImg} />
             </div>
-            <div className={s.cItem__title}>
-              <span className={s.cItem__titleDescription}>Test</span>
+            <div className={s.cItem__detail}>
+              <span className={s.cItem__detailText}>Test</span>
             </div>
           </div>
 
@@ -41,8 +41,8 @@ export default class ChairItem1 extends Component {
             <div className={s.cItem__content}>
               <img src={Chair2} className={s.cItem__contentImg} />
             </div>
-            <div className={s.cItem__title}>
-              <span className={s.cItem__titleDescription}>Test</span>
+            <div className={s.cItem__detail}>
+              <span className={s.cItem__detailText}>Test</span>
             </div>
           </div>
 
@@ -53,8 +53,8 @@ export default class ChairItem1 extends Component {
             <div className={s.cItem__content}>
               <img src={Chair3} className={s.cItem__contentImg} />
             </div>
-            <div className={s.cItem__title}>
-              <span className={s.cItem__titleDescription}>Test</span>
+            <div className={s.cItem__detail}>
+              <span className={s.cItem__detailText}>Test</span>
             </div>
           </div>
 
@@ -66,8 +66,8 @@ export default class ChairItem1 extends Component {
             <div className={s.cItem__content}>
               <img src={Chair4} className={s.cItem__contentImg} />
             </div>
-            <div className={s.cItem__title}>
-              <span className={s.cItem__titleDescription}>Test</span>
+            <div className={s.cItem__detail}>
+              <span className={s.cItem__detailText}>Test</span>
             </div>
           </div>
 
@@ -78,8 +78,8 @@ export default class ChairItem1 extends Component {
             <div className={s.cItem__content}>
               <img src={Chair5} className={s.cItem__contentImg} />
             </div>
-            <div className={s.cItem__title}>
-              <span className={s.cItem__titleDescription}>Test</span>
+            <div className={s.cItem__detail}>
+              <span className={s.cItem__detailText}>Test</span>
             </div>
           </div>
 
@@ -90,8 +90,8 @@ export default class ChairItem1 extends Component {
             <div className={s.cItem__content}>
               <img src={Chair6} className={s.cItem__contentImg} />
             </div>
-            <div className={s.cItem__title}>
-              <span className={s.cItem__titleDescription}>Test</span>
+            <div className={s.cItem__detail}>
+              <span className={s.cItem__detailText}>Test</span>
             </div>
           </div>
 
