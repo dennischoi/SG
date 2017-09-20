@@ -22,6 +22,7 @@
 
   &__logo {
     @include reset-anchor;
+    margin-right: auto;
 
     &Svg {
       display: block;

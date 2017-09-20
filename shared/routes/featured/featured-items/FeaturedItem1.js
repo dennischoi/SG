@@ -33,9 +33,12 @@ export default class FeaturedItem1 extends Component {
             </div>
             <div className={s.fItem__content}>
               <img src={Chair1} className={s.fItem__contentImg} />
+              <div className={s.fItem__overlay}>
+                <p className={s.fItem__overlayText}>x</p>
+              </div>
             </div>
-            <div className={s.cItem__detail}>
-              <span className={s.cItem__detailText}>Test</span>
+            <div className={s.fItem__detail}>
+              <span className={s.fItem__detailText}>Test</span>
             </div>
           </div>
 
@@ -45,9 +48,12 @@ export default class FeaturedItem1 extends Component {
             </div>
             <div className={s.fItem__content}>
               <img src={Counter1} className={s.fItem__contentImg} />
+              <div className={s.fItem__overlay}>
+                <p className={s.fItem__overlayText}>x</p>
+              </div>
             </div>
-            <div className={s.cItem__detail}>
-              <span className={s.cItem__detailText}>Test</span>
+            <div className={s.fItem__detail}>
+              <span className={s.fItem__detailText}>Test</span>
             </div>
           </div>
 
@@ -57,9 +63,12 @@ export default class FeaturedItem1 extends Component {
             </div>
             <div className={s.fItem__content}>
               <img src={Desk1} className={s.fItem__contentImg} />
+              <div className={s.fItem__overlay}>
+                <p className={s.fItem__overlayText}>x</p>
+              </div>
             </div>
-            <div className={s.cItem__detail}>
-              <span className={s.cItem__detailText}>Test</span>
+            <div className={s.fItem__detail}>
+              <span className={s.fItem__detailText}>Test</span>
             </div>
           </div>
 
@@ -70,9 +79,12 @@ export default class FeaturedItem1 extends Component {
             </div>
             <div className={s.fItem__content}>
               <img src={Desk2} className={s.fItem__contentImg} />
+              <div className={s.fItem__overlay}>
+                <p className={s.fItem__overlayText}>x</p>
+              </div>
             </div>
-            <div className={s.cItem__detail}>
-              <span className={s.cItem__detailText}>Test</span>
+            <div className={s.fItem__detail}>
+              <span className={s.fItem__detailText}>Test</span>
             </div>
           </div>
 
@@ -82,9 +94,12 @@ export default class FeaturedItem1 extends Component {
             </div>
             <div className={s.fItem__content}>
               <img src={Chair2} className={s.fItem__contentImg} />
+              <div className={s.fItem__overlay}>
+                <p className={s.fItem__overlayText}>x</p>
+              </div>
             </div>
-            <div className={s.cItem__detail}>
-              <span className={s.cItem__detailText}>Test</span>
+            <div className={s.fItem__detail}>
+              <span className={s.fItem__detailText}>Test</span>
             </div>
           </div>
 
@@ -94,9 +109,12 @@ export default class FeaturedItem1 extends Component {
             </div>
             <div className={s.fItem__content}>
               <img src={Counter2} className={s.fItem__contentImg} />
+              <div className={s.fItem__overlay}>
+                <p className={s.fItem__overlayText}>x</p>
+              </div>
             </div>
-            <div className={s.cItem__detail}>
-              <span className={s.cItem__detailText}>Test</span>
+            <div className={s.fItem__detail}>
+              <span className={s.fItem__detailText}>Test</span>
             </div>
           </div>
 
