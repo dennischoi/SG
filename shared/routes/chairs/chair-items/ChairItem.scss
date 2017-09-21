@@ -3,42 +3,102 @@
 .cItem {
 	&__section {
 		display: flex;
-		flex-flow: wrap;
-		justify-content:center;
+		margin-bottom: 28px;
+		flex-direction: row;
 	}
 
 	&__each {
 		margin-right: 28px;
-		margin-bottom: 40px;
+		flex: 1;
 	}
 
-	&__title {
-		text-align: center;
-		margin: 10px;
-		&Text {
-			font-weight: bold;
-			font-size: 18px;
+	&__case {
+		background-color: #efefef;
+		display: block;
+		width: 100%;
+
+		bottom: 0;
+		right: 0;
+		left: 0;
+		top: 0;
+
+		position: relative;
+	}
+
+	&__content {
+    	@include reset-anchor;
+    	display: block;
+    	overflow: hidden;
+    	padding-bottom: 100%;
+
+    	&Img {
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: auto;
+			user-select: none;
+
+			left: 0;
+			top: -20%;
+		}
+
+    	&:hover {
+			cursor: pointer;
+			.cItem {
+				&__overlay {
+					display: flex;
+				    position: absolute;
+				    width: 100%;
+				    height: 100%;
+				    background: black;
+				    opacity: 0.5;
+				    top: 0; 
+				}
+
+				&__title{
+					display: flex;
+					flex: 1;
+					flex-direction: column;
+					text-align: center;
+					color: #fff;
+				}
+
+				&__title {
+					&Text {
+						flex: 1;
+						
+					}
+				}
+
+				&__detail {
+					&Text {
+						flex: 1;
+						align-items: flex-end;
+					}
+				}
+
+				&__overlayText {
+					display: block;
+					position: absolute;
+				    top: 5%;
+				    right: 5%;
+				    transform:translate(-50%, -50%);
+				    color:white;
+				}
+			}
 		}
 	}
-	&__detail {
-		text-align: center;
-		padding-top: 10px;
-		&Text {
-			
-		}
+
+	&__overylay, &__title, &__detail, &__overlayText {
+		display: none;
 	}
 	
 
 	// GRID
 
 	&__gridCol {
-		-webkit-box-flex: 0;
-	    -ms-flex: none;
-	    flex: none;
-	    -ms-flex-item-align: stretch;
-	    align-self: stretch;
-	    padding: 10px;
-	    width: 25%;
+		width: 100%;
+	    display: block;
 	    position: relative;
 		&:after {
 			font-size: 14px;
@@ -51,76 +111,25 @@
 		}
 	}
 
-	&__content {
-    	@include reset-anchor;
-    	height: auto;
-    	overflow: hidden;
 
-    	&Img {
-			display: block;
-		}
 
-    	&:hover {
-			cursor: pointer;
-			.cItem {
-				&__overlay {
-					display: block;
-				    position: absolute;
-				    width: 100%;
-				    height: 100%;
-				    background: black;
-				    opacity: 0.5;
-				    top: 0; 
-				}
-			}
-		}
-	}
-	
-	&__overlayText {
-		position: absolute;
-	    top: 50%;
-	    left: 50%;
-	    transform:translate(-50%, -50%);
-	    color:white;
-	}
 }
 
-.overlay {                      
-    display: none;  
-}
 
-.text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%, -50%);
-    color:white;
-}
+
 
 
 
 
 @media(max-width: 900px) {
 	.cItem {
-		&__grid {
-			&Col {
-				width: 45%;
-			}
-		}
+		
 	}
 }
 
 @media(max-width: 620px) {
 	.cItem {
-		&__grid {
-			&Col {
-				width: 90%;
-			}
-		}
-
-		&__each {
-			margin-right: 0;
-		}
+		
 	}
 }
 
