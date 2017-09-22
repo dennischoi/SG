@@ -25,7 +25,9 @@ export default class ChairItem2 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                      <div className={ s.cItem__titleFav }></div>
+                      <div className={ s.cItem__titleExtra }>
+                        <a className={ s.cItem__Fav }></a>
+                      </div>
                     
                     </div>
                   </div>
@@ -42,7 +44,9 @@ export default class ChairItem2 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                      <div className={ s.cItem__titleFav }></div>
+                      <div className={ s.cItem__titleExtra }>
+                        <a className={ s.cItem__Fav }></a>
+                      </div>
                     
                     </div>
                   </div>
@@ -59,7 +63,9 @@ export default class ChairItem2 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                      <div className={ s.cItem__titleFav }></div>
+                      <div className={ s.cItem__titleExtra }>
+                        <a className={ s.cItem__Fav }></a>
+                      </div>
                     
                     </div>
                   </div>

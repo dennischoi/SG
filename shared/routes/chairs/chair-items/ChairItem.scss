@@ -64,18 +64,28 @@
 				}
 
 				&__title {
-					&Text {
+					&Text, &Extra {
 						flex: 1;
 						
 					}
-					&Fav {
-						margin-right: 2%;
-						margin-bottom: 2%;
-						flex: 1;
-						background: url('../../../assets/images/fav-unselect.png') no-repeat bottom right;
+					&Extra {
 
 					}
+					
 
+				}
+
+				&__Fav {
+					bottom: 2%;
+					right: 1%;
+					position: absolute;
+					width: 30px;
+					height: 30px;
+					background-size: cover;
+					background: url('../../../assets/images/fav-unselect.png') no-repeat center;
+					&:hover, &:active {
+						background-image: url('../../../assets/images/fav-select.png');
+					}
 				}
 
 
@@ -88,7 +98,7 @@
 				    transform:translate(-50%, -50%);
 				    color:white;
 				}
-							}
+			}
 		}
 	}
 

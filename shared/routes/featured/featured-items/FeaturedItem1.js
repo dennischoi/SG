@@ -26,9 +26,11 @@ export default class ChairItem1 extends Component {
                   <div className={s.fItem__overlay}>
                     <div className={s.fItem__title}>
                       <span className={s.fItem__titleText}>Lorem Ipsum</span>
-                      <span className={s.fItem__detailText}>Test</span>
+                      <div className={ s.fItem__titleExtra }>
+                        <a className={ s.fItem__Fav }></a>
+                      </div>
+
                     </div>
-                    <p className={s.fItem__overlayText}>x</p>
                   </div>
                 </div>
               </div>
@@ -43,9 +45,11 @@ export default class ChairItem1 extends Component {
                   <div className={s.fItem__overlay}>
                     <div className={s.fItem__title}>
                       <span className={s.fItem__titleText}>Lorem Ipsum</span>
-                      <span className={s.fItem__detailText}>Test</span>
+                      <div className={ s.fItem__titleExtra }>
+                        <a className={ s.fItem__Fav }></a>
+                      </div>
+                      
                     </div>
-                    <p className={s.fItem__overlayText}>x</p>
                   </div>
                 </div>
               </div>
@@ -60,9 +64,11 @@ export default class ChairItem1 extends Component {
                   <div className={s.fItem__overlay}>
                     <div className={s.fItem__title}>
                       <span className={s.fItem__titleText}>Lorem Ipsum</span>
-                      <span className={s.fItem__detailText}>Test</span>
+                      <div className={ s.fItem__titleExtra }>
+                        <a className={ s.fItem__Fav }></a>
+                      </div>
+
                     </div>
-                    <p className={s.fItem__overlayText}>x</p>
                   </div>
                 </div>
               </div>
