@@ -8,8 +8,6 @@ import Chair1 from 'assets/images/Chairs/sg_chair_1.JPG';
 import Chair2 from 'assets/images/Chairs/sg_chair_2.JPG';
 import Chair3 from 'assets/images/Chairs/sg_chair_3.JPG';
 
-import favSelect from 'assets/images/fav-unselect.png';
-
 
 
 import s from './ChairItem.scss';
@@ -30,10 +28,9 @@ export default class ChairItem1 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                      <div className={ s.cItem__titleFav }>test</div>
+                      <div className={ s.cItem__titleFav }></div>
                     
                     </div>
-                    
                   </div>
                 </div>
               </div>
@@ -48,9 +45,8 @@ export default class ChairItem1 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                    
+                      <div className={ s.cItem__titleFav }></div>
                     </div>
-                    <img src={favSelect} className={s.cItem__overlayFav} />
                   </div>
                 </div>
               </div>
@@ -65,9 +61,8 @@ export default class ChairItem1 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                    
+                      <div className={ s.cItem__titleFav }></div>
                     </div>
-                    <img src={favSelect} className={s.cItem__overlayFav} />
                   </div>
                 </div>
               </div>

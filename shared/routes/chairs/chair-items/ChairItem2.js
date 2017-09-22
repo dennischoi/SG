@@ -8,8 +8,6 @@ import Chair1 from 'assets/images/Chairs/sg_chair_7.JPG';
 import Chair2 from 'assets/images/Chairs/sg_chair_8.JPG';
 import Chair3 from 'assets/images/Chairs/sg_chair_9.JPG';
 
-import favSelect from 'assets/images/fav-unselect.png';
-
 
 import s from './ChairItem.scss';
 import g from '../../grid/components/grid/Grid.scss'
@@ -27,9 +25,9 @@ export default class ChairItem2 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                      <span className={s.cItem__detailText}>Test</span>
+                      <div className={ s.cItem__titleFav }></div>
+                    
                     </div>
-                    <img src={favSelect} className={s.cItem__overlayFav} />
                   </div>
                 </div>
               </div>
@@ -44,9 +42,9 @@ export default class ChairItem2 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                      <span className={s.cItem__detailText}>Test</span>
+                      <div className={ s.cItem__titleFav }></div>
+                    
                     </div>
-                    <img src={favSelect} className={s.cItem__overlayFav} />
                   </div>
                 </div>
               </div>
@@ -61,9 +59,9 @@ export default class ChairItem2 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                      <span className={s.cItem__detailText}>Test</span>
+                      <div className={ s.cItem__titleFav }></div>
+                    
                     </div>
-                    <img src={favSelect} className={s.cItem__overlayFav} />
                   </div>
                 </div>
               </div>
