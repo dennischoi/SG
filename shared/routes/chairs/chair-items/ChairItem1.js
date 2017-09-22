@@ -8,6 +8,8 @@ import Chair1 from 'assets/images/Chairs/sg_chair_1.JPG';
 import Chair2 from 'assets/images/Chairs/sg_chair_2.JPG';
 import Chair3 from 'assets/images/Chairs/sg_chair_3.JPG';
 
+import favSelect from 'assets/images/fav-unselect.png';
+
 
 
 import s from './ChairItem.scss';
@@ -17,18 +19,21 @@ export default class ChairItem1 extends Component {
   render() {
     return (
       <section className={ s.cItem__section }> 
-        
+        <div className={ s.cItem__Fav }>
+        </div>
           <div className={s(s.cItem__gridCol, s.cItem__each)}>
             <a>
               <div className={s.cItem__case}>
                 <div className={s.cItem__content}>
+                     
                   <img src={Chair1} className={s.cItem__contentImg} />
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                      <span className={s.cItem__detailText}>Test</span>
+                      <div className={ s.cItem__titleFav }>test</div>
+                    
                     </div>
-                    <p className={s.cItem__overlayText}>x</p>
+                    
                   </div>
                 </div>
               </div>
@@ -43,9 +48,9 @@ export default class ChairItem1 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                      <span className={s.cItem__detailText}>Test</span>
+                    
                     </div>
-                    <p className={s.cItem__overlayText}>x</p>
+                    <img src={favSelect} className={s.cItem__overlayFav} />
                   </div>
                 </div>
               </div>
@@ -60,9 +65,9 @@ export default class ChairItem1 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                      <span className={s.cItem__detailText}>Test</span>
+                    
                     </div>
-                    <p className={s.cItem__overlayText}>x</p>
+                    <img src={favSelect} className={s.cItem__overlayFav} />
                   </div>
                 </div>
               </div>

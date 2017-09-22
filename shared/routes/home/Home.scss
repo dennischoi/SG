@@ -2,9 +2,7 @@
 
 .home {
 	&__bg {
-		background-image: url('../../assets/images/Home/ScoutGather.jpg');
-	  	background-position: center;
-		background-repeat: no-repeat;
+		background: url('../../assets/images/Home/ScoutGather.jpg') no-repeat center;
 		background-size: cover;
 		height: 50vw;
 		border-radius: 0 !important;

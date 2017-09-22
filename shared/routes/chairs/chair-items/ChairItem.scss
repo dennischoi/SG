@@ -68,28 +68,31 @@
 						flex: 1;
 						
 					}
-				}
-
-				&__detail {
-					&Text {
+					&Fav {
+						margin-right: 2%;
+						margin-bottom: 2%;
 						flex: 1;
-						align-items: flex-end;
+						background: url('../../../assets/images/fav-unselect.png') no-repeat bottom right;
+
 					}
+
 				}
 
-				&__overlayText {
+
+				&__overlayFav {
 					display: block;
 					position: absolute;
-				    top: 5%;
-				    right: 5%;
+				    bottom: 2%;
+				    right: 0;
+				    width: 10%;
 				    transform:translate(-50%, -50%);
 				    color:white;
 				}
-			}
+							}
 		}
 	}
 
-	&__overylay, &__title, &__detail, &__overlayText {
+	&__overylay, &__title, &__overlayFav {
 		display: none;
 	}
 	
@@ -135,11 +138,8 @@
 
 @media(min-width: 375px) {
 	.cItem {
-		&__grid {
-			&Col {
-				font-size: calc(0*100vw + (14px));
-			}
+		&__section, &__each {
+			@include items;
 		}
 	}
 }
-

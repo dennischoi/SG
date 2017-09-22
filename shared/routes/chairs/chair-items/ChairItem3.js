@@ -8,13 +8,15 @@ import Chair1 from 'assets/images/Chairs/sg_chair_10.JPG';
 import Chair2 from 'assets/images/Chairs/sg_chair_11.JPG';
 import Chair3 from 'assets/images/Chairs/sg_chair_6.JPG';
 
-
+import favSelect from 'assets/images/fav-unselect.png';
 
 
 import s from './ChairItem.scss';
 import g from '../../grid/components/grid/Grid.scss'
 
+
 export default class ChairItem3 extends Component {
+
   render() {
     return (
       <section className={ s.cItem__section }> 
@@ -29,7 +31,7 @@ export default class ChairItem3 extends Component {
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
                       <span className={s.cItem__detailText}>Test</span>
                     </div>
-                    <p className={s.cItem__overlayText}>x</p>
+                    <img src={favSelect} className={s.cItem__overlayFav} />
                   </div>
                 </div>
               </div>
@@ -46,7 +48,7 @@ export default class ChairItem3 extends Component {
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
                       <span className={s.cItem__detailText}>Test</span>
                     </div>
-                    <p className={s.cItem__overlayText}>x</p>
+                    <img src={favSelect} className={s.cItem__overlayFav} />
                   </div>
                 </div>
               </div>
@@ -63,7 +65,7 @@ export default class ChairItem3 extends Component {
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
                       <span className={s.cItem__detailText}>Test</span>
                     </div>
-                    <p className={s.cItem__overlayText}>x</p>
+                    <img src={favSelect} className={s.cItem__overlayFav} />
                   </div>
                 </div>
               </div>

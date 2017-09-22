@@ -94,6 +94,23 @@
 
   @media (min-width: $min-desktop) {
     padding: 60px 20px 0;
-    width: calc(100% - 40%);
+    width: calc(100% - 35%);
+  }
+}
+
+
+// Items media Q
+@mixin items() {
+
+  @media (max-width: $max-640) {
+    margin: 0;
+  }
+
+  @media (min-width: $min-640) {
+
+  }
+
+  @media (min-width: $min-desktop) {
+
   }
 }
