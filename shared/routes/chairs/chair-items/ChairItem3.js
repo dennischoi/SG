@@ -29,8 +29,13 @@ export default class ChairItem3 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
+                      <div className={ s.cItem__titleBuy }>
+                        <div className={ s.cItem__buyBtn }>
+                          Buy Now
+                        </div>
+                      </div>
                       <div className={ s.cItem__titleExtra }>
-                        <a className={ s.cItem__Fav }></a>
+                        <div className={ s.cItem__Fav }></div>
                       </div>
 
                     </div>
@@ -48,8 +53,13 @@ export default class ChairItem3 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
+                      <div className={ s.cItem__titleBuy }>
+                        <div className={ s.cItem__buyBtn }>
+                          Buy Now
+                        </div>
+                      </div>
                       <div className={ s.cItem__titleExtra }>
-                        <a className={ s.cItem__Fav }></a>
+                        <div className={ s.cItem__Fav }></div>
                       </div>
 
                     </div>
@@ -67,8 +77,13 @@ export default class ChairItem3 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
+                      <div className={ s.cItem__titleBuy }>
+                        <div className={ s.cItem__buyBtn }>
+                          Buy Now
+                        </div>
+                      </div>
                       <div className={ s.cItem__titleExtra }>
-                        <a className={ s.cItem__Fav }></a>
+                        <div className={ s.cItem__Fav }></div>
                       </div>
 
                     </div>

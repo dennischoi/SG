@@ -13,7 +13,11 @@ import Chair3 from 'assets/images/Chairs/sg_chair_3.JPG';
 import s from './ChairItem.scss';
 import g from '../../grid/components/grid/Grid.scss'
 
+var test = s.cItem__Fav
+
 export default class ChairItem1 extends Component {
+
+
   render() {
     return (
       <section className={ s.cItem__section }> 
@@ -28,8 +32,13 @@ export default class ChairItem1 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                       <div className={ s.cItem__titleExtra }>
-                        <a className={ s.cItem__Fav }></a>
+                      <div className={ s.cItem__titleBuy }>
+                        <div className={ s.cItem__buyBtn }>
+                          Buy Now
+                        </div>
+                      </div>
+                      <div className={ s.cItem__titleExtra }>
+                        <div className={ test }></div>
                       </div>
                     
                     </div>
@@ -47,8 +56,13 @@ export default class ChairItem1 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                       <div className={ s.cItem__titleExtra }>
-                        <a className={ s.cItem__Fav }></a>
+                       <div className={ s.cItem__titleBuy }>
+                        <div className={ s.cItem__buyBtn }>
+                          Buy Now
+                        </div>
+                      </div>
+                      <div className={ s.cItem__titleExtra }>
+                        <div className={ s.cItem__Fav }></div>
                       </div>
 
                     </div>
@@ -66,8 +80,13 @@ export default class ChairItem1 extends Component {
                   <div className={s.cItem__overlay}>
                     <div className={s.cItem__title}>
                       <span className={s.cItem__titleText}>Lorem Ipsum</span>
-                       <div className={ s.cItem__titleExtra }>
-                        <a className={ s.cItem__Fav }></a>
+                       <div className={ s.cItem__titleBuy }>
+                        <div className={ s.cItem__buyBtn }>
+                          Buy Now
+                        </div>
+                      </div>
+                      <div className={ s.cItem__titleExtra }>
+                        <div className={ s.cItem__Fav }></div>
                       </div>
 
                     </div>

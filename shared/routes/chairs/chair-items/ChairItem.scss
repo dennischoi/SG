@@ -43,7 +43,7 @@
 		}
 
     	&:hover {
-			cursor: pointer;
+
 			.cItem {
 				&__overlay {
 					display: flex;
@@ -64,15 +64,27 @@
 				}
 
 				&__title {
-					&Text, &Extra {
+					&Text, &Buy, &Extra {
 						flex: 1;
-						
 					}
+
+					&Buy {
+						justify-content: center;
+					}
+
 					&Extra {
 
 					}
 					
 
+				}
+
+				&__buyBtn {
+					cursor: pointer;
+					border: 2px double #fff;
+					margin: 0 auto;
+					padding: 5px;
+					width: calc(100% - 40%);
 				}
 
 				&__Fav {
@@ -83,7 +95,7 @@
 					height: 30px;
 					background-size: cover;
 					background: url('../../../assets/images/fav-unselect.png') no-repeat center;
-					&:hover, &:active {
+					&:hover {
 						background-image: url('../../../assets/images/fav-select.png');
 					}
 				}
