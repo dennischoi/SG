@@ -4127,6 +4127,10 @@ jest@19.0.2:
   dependencies:
     jest-cli "^19.0.2"
 
+jquery-plugin-components@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/jquery-plugin-components/-/jquery-plugin-components-2.0.0.tgz#3c3649e95c170d9239185a12efe051f61192f914"
+
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.1.9.tgz#f0e80ae039a4bd654b5f281fc93f04a914a7fcce"
