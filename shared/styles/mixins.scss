@@ -77,6 +77,27 @@
   }
 }
 
+@mixin headerContainer() {
+  margin: 0 auto;
+
+  padding: 0 $container-gutter-mobile;
+  width: calc(100%);
+
+  @media (min-width: 340px) {
+    width: calc(100%);
+  }
+
+  @media (min-width: $min-tablet) {
+    padding: 0 $container-gutter-tablet;
+    width: calc(100% - 15%);
+  }
+
+  @media (min-width: $min-desktop) {
+    padding: 0 $container-gutter-tablet;
+    width: calc(100% - 15%);
+  }
+}
+
 @mixin container() {
   margin: 0 auto;
 

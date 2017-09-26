@@ -42,16 +42,17 @@
 			top: -20%;
 		}
 
+
+		// OVERLAY WHEN HOVERING ON AN ITEM
     	&:hover {
-			cursor: pointer;
+
 			.fItem {
 				&__overlay {
 					display: flex;
 				    position: absolute;
 				    width: 100%;
 				    height: 100%;
-				    background: black;
-				    opacity: 0.5;
+				    background-color: rgba(0, 0, 0, 0.3);
 				    top: 0; 
 				}
 
@@ -64,10 +65,14 @@
 				}
 
 				&__title {
-					&Text, &Extra {
+					&Text, &Buy, &Extra {
 						flex: 1;
-						
 					}
+
+					&Buy {
+						justify-content: center;
+					}
+
 					&Extra {
 
 					}
@@ -75,15 +80,28 @@
 
 				}
 
+				&__buyBtn {
+					cursor: pointer;
+					border: 2px double #fff;
+					margin: 0 auto;
+					padding: 5px;
+					width: calc(100% - 40%);
+					&:hover {
+						background-color: orange;
+					}
+				}
+
 				&__Fav {
-					bottom: 2%;
-					right: 1%;
-					position: absolute;
-					width: 30px;
-					height: 30px;
-					background-size: cover;
 					background: url('../../../assets/images/fav-unselect.png') no-repeat center;
-					&:hover, &:active {
+					background-size: cover;
+					bottom: 2%;
+					cursor: pointer;
+					position: absolute;
+					right: 1%;
+					
+					height: 30px;
+					width: 30px;
+					&:hover {
 						background-image: url('../../../assets/images/fav-select.png');
 					}
 				}

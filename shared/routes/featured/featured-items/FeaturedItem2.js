@@ -12,6 +12,8 @@ import Counter2 from 'assets/images/Counters/sg_counter_2.JPG';
 import s from './FeaturedItem.scss';
 import g from '../../grid/components/grid/Grid.scss'
 
+var test = s.fItem__Fav
+
 export default class ChairItem1 extends Component {
   render() {
     return (
@@ -25,8 +27,13 @@ export default class ChairItem1 extends Component {
                   <div className={s.fItem__overlay}>
                     <div className={s.fItem__title}>
                       <span className={s.fItem__titleText}>Lorem Ipsum</span>
+                      <div className={ s.fItem__titleBuy }>
+                        <div className={ s.fItem__buyBtn }>
+                          Buy Now
+                        </div>
+                      </div>
                       <div className={ s.fItem__titleExtra }>
-                        <a className={ s.fItem__Fav }></a>
+                        <div className={ test }></div>
                       </div>
                       
                     </div>
@@ -44,8 +51,13 @@ export default class ChairItem1 extends Component {
                   <div className={s.fItem__overlay}>
                     <div className={s.fItem__title}>
                       <span className={s.fItem__titleText}>Lorem Ipsum</span>
+                      <div className={ s.fItem__titleBuy }>
+                        <div className={ s.fItem__buyBtn }>
+                          Buy Now
+                        </div>
+                      </div>
                       <div className={ s.fItem__titleExtra }>
-                        <a className={ s.fItem__Fav }></a>
+                        <div className={ test }></div>
                       </div>
 
                     </div>
@@ -63,8 +75,13 @@ export default class ChairItem1 extends Component {
                   <div className={s.fItem__overlay}>
                     <div className={s.fItem__title}>
                       <span className={s.fItem__titleText}>Lorem Ipsum</span>
+                      <div className={ s.fItem__titleBuy }>
+                        <div className={ s.fItem__buyBtn }>
+                          Buy Now
+                        </div>
+                      </div>
                       <div className={ s.fItem__titleExtra }>
-                        <a className={ s.fItem__Fav }></a>
+                        <div className={ test }></div>
                       </div>
 
                     </div>
