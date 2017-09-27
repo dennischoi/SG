@@ -90,6 +90,25 @@ export default class Footer extends Component {
 
               </div>
             </div>
+
+            <div className={ s.location }>
+              <div className={ s.location__city }>
+              </div>
+
+              <div className={ s.location__city }>
+                <a>
+                <div className={ s.location__mapBox }>
+                  <div className={ s.location__map }>
+                  </div>
+
+                </div>
+                </a>
+              </div>
+
+              <div className={ s.location__city }>
+              </div>
+            </div>
+
           </div>
 
           {/*<div className={ s.footer__tables }>

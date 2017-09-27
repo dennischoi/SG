@@ -2,7 +2,7 @@
 
 footer {
 	min-height: 500px;
-	background-color: #222;
+	background-color: #3F3E5E;
 	color: #fff;
 }
 
@@ -79,6 +79,53 @@ footer {
 	}
 }
 
+.location {
+	display: flex;
+	width: 100%;
+
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+
+	position: relative;
+	flex-flow: row;
+
+	a {
+		@include reset-anchor;
+		display: block;
+		overflow: hidden;
+		padding-bottom: 100%;
+	}
+
+	&__city {
+		display: flex;
+
+		flex: 1;
+		width: 33%;
+	}
+
+	&__mapBox {
+		position: absolute;
+		height: 50%;
+		width: 100%;
+	}
+
+	&__map {
+		background: url('../../assets/images/Footer/toronto.png') no-repeat center;
+		background-size: contain;
+		cursor: pointer;
+
+		height: 100%;
+		width: 45%;
+		margin: 0 auto;
+
+		&:hover {
+			background-image: url('../../assets/images/Footer/toronto-select.png');
+		}
+	}
+}
+
 
 /* MEDIA Q for App Size */
 
@@ -104,4 +151,21 @@ footer {
 		}
 	}
 
+	.location {
+		flex-flow: column;
+
+		&__city {
+			width: 100%;
+		}
+
+		&__map {
+
+		}
+	}
+
+
 }
+
+
+
+

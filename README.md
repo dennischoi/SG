@@ -22,7 +22,11 @@ yarn start
 ```
 
 
-
+## Make sure PORTS are clear and kill Process ID 
+```
+sudo lsof -iTCP -sTCP:LISTEN -P
+sudo kill -9 <PID>
+```
 
 ## Updating from upstream
 
