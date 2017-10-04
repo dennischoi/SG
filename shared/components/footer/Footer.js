@@ -96,13 +96,19 @@ export default class Footer extends Component {
               </div>
 
               <div className={ s.location__city }>
-                <a>
                 <div className={ s.location__mapBox }>
                   <div className={ s.location__map }>
                   </div>
-
                 </div>
-                </a>
+                <div className={ s.location__cityName }>
+                  <span>toronto</span>
+                </div>
+                <div className={ s.location__cityDetails }>
+                  <span>199 Yonge St, ON blah blah blah, Toronto</span>
+                </div>
+                <div className={ s.location__cityGoogle }>
+                  <a>Google Maps of Location</a>
+                </div>
               </div>
 
               <div className={ s.location__city }>

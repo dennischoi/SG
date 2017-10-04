@@ -100,15 +100,16 @@ footer {
 
 	&__city {
 		display: flex;
-
 		flex: 1;
+		flex-flow: column;
 		width: 33%;
 	}
 
 	&__mapBox {
-		position: absolute;
-		height: 50%;
+		flex: 1;
+		height: 100px;
 		width: 100%;
+		margin-bottom: 1.5em;
 	}
 
 	&__map {
@@ -123,6 +124,22 @@ footer {
 		&:hover {
 			background-image: url('../../assets/images/Footer/toronto-select.png');
 		}
+	}
+
+	&__cityName {
+		align-items: center;
+		margin-bottom: 1.5em;
+		span {
+			text-transform: uppercase;
+			letter-spacing: 1.4px;
+		}
+	}
+	&__cityDetails {
+		align-items: center;
+	}
+
+	&__cityGoogle {
+		align-items: center;
 	}
 }
 
