@@ -93,6 +93,19 @@ export default class Footer extends Component {
 
             <div className={ s.location }>
               <div className={ s.location__city }>
+                <div className={ s.location__mapBox }>
+                  <div className={ s.location__map }>
+                  </div>
+                </div>
+                <div className={ s.location__cityName }>
+                  <span>Bahama</span>
+                </div>
+                <div className={ s.location__cityDetails }>
+                  <span>100 Beachy St, ON blah blah blah, Mexico</span>
+                </div>
+                <div className={ s.location__cityGoogle }>
+                  <a>Google Maps of Location</a>
+                </div>
               </div>
 
               <div className={ s.location__city }>
@@ -112,6 +125,19 @@ export default class Footer extends Component {
               </div>
 
               <div className={ s.location__city }>
+                <div className={ s.location__mapBox }>
+                  <div className={ s.location__map }>
+                  </div>
+                </div>
+                <div className={ s.location__cityName }>
+                  <span>Seoul</span>
+                </div>
+                <div className={ s.location__cityDetails }>
+                  <span>222 Yonge St, ON blah blah blah, Korea</span>
+                </div>
+                <div className={ s.location__cityGoogle }>
+                  <a>Google Maps of Location</a>
+                </div>
               </div>
             </div>
 
