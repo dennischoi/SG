@@ -16,9 +16,14 @@ footer {
 	&__tables {
 		flex: 1;
 		padding: 1em 3em;
+		h3 {
+			text-align: center;
+		}
 	}
 
 	&__media {
+		// Test
+		justify-content: center;
 
 		&Icon {
 			margin-right: 0.8em;
